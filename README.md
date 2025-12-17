@@ -1,4 +1,4 @@
-# NYC Taxi — Spark-based Big Data Pipeline
+# Data Preparation Pipeline for Analytics & ML (Spark)
 
 End-to-end ETL workflow built with **PySpark** to process and analyze New York City Yellow Taxi trip data.  
 The pipeline reads public **Parquet** data, performs cleaning and feature extraction, joins external lookup tables (pickup/drop-off zones), computes daily revenue and tip aggregations, runs basic data-quality checks, and produces a visualization of daily earnings.
